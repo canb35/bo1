@@ -5,7 +5,7 @@ var prefix = ayarlar.prefix;
 
 exports.run = (client, message, args) => {
     const mesaj = args.slice(0).join(' ');
-   if (message.author.id !== "619893802408345613") return message.channel.send("Bu komutu kullanmaya yetkin yok!")
+   if (message.author.id !== "528206879864782848") return message.channel.send("Bu komutu kullanmaya yetkin yok!")
     if(mesaj.length < 1) return message.reply("Duyuru giriniz")
       try {
         message.guild.members.forEach(m=> {
